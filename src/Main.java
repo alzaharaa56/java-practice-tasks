@@ -27,9 +27,13 @@ public class Main {
        // System.out.println(Task6.teaParty(3, 8));
        // System.out.println(Task6.teaParty(20, 6));
 
-        System.out.println(Task7.twoAsOne(1, 2, 3));
-        System.out.println(Task7.twoAsOne(3, 1, 2));
-        System.out.println(Task7.twoAsOne(3, 2, 2));
+       // System.out.println(Task7.twoAsOne(1, 2, 3));
+        //System.out.println(Task7.twoAsOne(3, 1, 2));
+       // System.out.println(Task7.twoAsOne(3, 2, 2));
+
+        System.out.println(Task8.lastDigit(23, 19, 13));
+        System.out.println(Task8.lastDigit(23, 19, 12));
+        System.out.println(Task8.lastDigit(23, 19, 3));
 
     }
 
