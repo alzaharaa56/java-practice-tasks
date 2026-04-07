@@ -70,13 +70,20 @@ public class Main {
 
         //System.out.println("" + Task12.sortaSum(num1, num2));
 
-        System.out.println(" (in1To10)");
-        System.out.print("enter unm: ");
-        int n = scanner.nextInt();
-        System.out.print("choose(true/false): ");
-        boolean mode = scanner.nextBoolean();
+      //  System.out.println(" (in1To10)");
+      //  System.out.print("enter unm: ");
+        //int n = scanner.nextInt();
+       // System.out.print("choose(true/false): ");
+       // boolean mode = scanner.nextBoolean();
 
-        System.out.println("output"+ " " + Task13.in1To10(n, mode));
+       // System.out.println("output"+ " " + Task13.in1To10(n, mode));
+
+
+        System.out.println("(old35)");
+        System.out.print("enter num: ");
+        int num = scanner.nextInt();
+
+        System.out.println("output" + "  " + Task14.old35(num));
 
 
     }
