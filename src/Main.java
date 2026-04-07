@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -35,9 +37,21 @@ public class Main {
        // System.out.println(Task8.lastDigit(23, 19, 12));
         //System.out.println(Task8.lastDigit(23, 19, 3));
 
-        System.out.println(Task9.maxMod5(2, 3));
-        System.out.println(Task9.maxMod5(6, 2));
-        System.out.println(Task9.maxMod5(3, 2));
+      //  System.out.println(Task9.maxMod5(2, 3));
+        //System.out.println(Task9.maxMod5(6, 2));
+        //System.out.println(Task9.maxMod5(3, 2));
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("(blueTicket) ");
+        System.out.print(" a: ");
+        int a = scanner.nextInt();
+        System.out.print(" b: ");
+        int b = scanner.nextInt();
+        System.out.print("c: ");
+        int c = scanner.nextInt();
+
+        System.out.println( Task10.blueTicket(a, b, c));
 
 
     }
