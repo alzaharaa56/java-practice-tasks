@@ -7,9 +7,13 @@ public class Main {
       //  System.out.println((cigarParty(50,false)));
       //  System.out.println((cigarParty(70,true)));
 
-System.out.println(Task2.caughtSpeeding(60,false));
-        System.out.println(Task2.caughtSpeeding(65,false));
-        System.out.println(Task2.caughtSpeeding(65,true));
+//System.out.println(Task2.caughtSpeeding(60,false));
+       // System.out.println(Task2.caughtSpeeding(65,false));
+        //System.out.println(Task2.caughtSpeeding(65,true));
+
+        System.out.println(Task3.love6(6, 4));
+        System.out.println(Task3.love6(4, 5));
+        System.out.println(Task3.love6(1, 5));
 
     }
 
