@@ -31,9 +31,14 @@ public class Main {
         //System.out.println(Task7.twoAsOne(3, 1, 2));
        // System.out.println(Task7.twoAsOne(3, 2, 2));
 
-        System.out.println(Task8.lastDigit(23, 19, 13));
-        System.out.println(Task8.lastDigit(23, 19, 12));
-        System.out.println(Task8.lastDigit(23, 19, 3));
+       // System.out.println(Task8.lastDigit(23, 19, 13));
+       // System.out.println(Task8.lastDigit(23, 19, 12));
+        //System.out.println(Task8.lastDigit(23, 19, 3));
+
+        System.out.println(Task9.maxMod5(2, 3));
+        System.out.println(Task9.maxMod5(6, 2));
+        System.out.println(Task9.maxMod5(3, 2));
+
 
     }
 
