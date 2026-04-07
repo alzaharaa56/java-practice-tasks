@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-     //   System.out.println((cigarParty(30,false)));
-      //  System.out.println((cigarParty(50,false)));
-      //  System.out.println((cigarParty(70,true)));
+        System.out.println((cigarParty(30,false)));
+        System.out.println((cigarParty(50,false)));
+        System.out.println((cigarParty(70,true)));
 
 //System.out.println(Task2.caughtSpeeding(60,false));
        // System.out.println(Task2.caughtSpeeding(65,false));
@@ -42,7 +42,7 @@ public class Main {
         //System.out.println(Task9.maxMod5(3, 2));
 
 
-        Scanner scanner = new Scanner(System.in);
+      //  Scanner scanner = new Scanner(System.in);
        // System.out.println("(blueTicket) ");
       //  System.out.print(" a: ");
         //int a = scanner.nextInt();
@@ -84,13 +84,13 @@ public class Main {
         //int num = scanner.nextInt();
 
         //System.out.println("output" + "  " + Task14.old35(num));
-        System.out.println("(teenSum) ");
-        System.out.print("enter num a: ");
-        int val1 = scanner.nextInt();
-        System.out.print("enter num b: ");
-        int val2 = scanner.nextInt();
+       // System.out.println("(teenSum) ");
+        //System.out.print("enter num a: ");
+        //int val1 = scanner.nextInt();
+        //System.out.print("enter num b: ");
+       // int val2 = scanner.nextInt();
 
-        System.out.println("output" + "  " + Task15.teenSum(val1, val2));
+        //System.out.println("output" + "  " + Task15.teenSum(val1, val2));
 
 
     }
