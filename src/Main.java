@@ -79,11 +79,18 @@ public class Main {
        // System.out.println("output"+ " " + Task13.in1To10(n, mode));
 
 
-        System.out.println("(old35)");
-        System.out.print("enter num: ");
-        int num = scanner.nextInt();
+        //System.out.println("(old35)");
+       // System.out.print("enter num: ");
+        //int num = scanner.nextInt();
 
-        System.out.println("output" + "  " + Task14.old35(num));
+        //System.out.println("output" + "  " + Task14.old35(num));
+        System.out.println("(teenSum) ");
+        System.out.print("enter num a: ");
+        int val1 = scanner.nextInt();
+        System.out.print("enter num b: ");
+        int val2 = scanner.nextInt();
+
+        System.out.println("output" + "  " + Task15.teenSum(val1, val2));
 
 
     }
