@@ -11,9 +11,13 @@ public class Main {
        // System.out.println(Task2.caughtSpeeding(65,false));
         //System.out.println(Task2.caughtSpeeding(65,true));
 
-        System.out.println(Task3.love6(6, 4));
-        System.out.println(Task3.love6(4, 5));
-        System.out.println(Task3.love6(1, 5));
+       // System.out.println(Task3.love6(6, 4));
+      //  System.out.println(Task3.love6(4, 5));
+       // System.out.println(Task3.love6(1, 5));
+
+        System.out.println(Task4.more20(20));
+        System.out.println(Task4.more20(21));
+        System.out.println(Task4.more20(22));
 
     }
 
