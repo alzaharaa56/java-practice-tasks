@@ -15,9 +15,13 @@ public class Main {
       //  System.out.println(Task3.love6(4, 5));
        // System.out.println(Task3.love6(1, 5));
 
-        System.out.println(Task4.more20(20));
-        System.out.println(Task4.more20(21));
-        System.out.println(Task4.more20(22));
+        //System.out.println(Task4.more20(20));
+       // System.out.println(Task4.more20(21));
+       // System.out.println(Task4.more20(22));
+
+        System.out.println(Task5.nearTen(12));
+        System.out.println(Task5.nearTen(17));
+        System.out.println(Task5.nearTen(19));
 
     }
 
