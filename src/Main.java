@@ -52,14 +52,23 @@ public class Main {
        // int c = scanner.nextInt();
 
        // System.out.println( Task10.blueTicket(a, b, c));
-        System.out.println(" enter the value");
-        System.out.print("enter the value from (0-10): ");
+       // System.out.println(" enter the value");
+      //  System.out.print("enter the value from (0-10): ");
 
-        int myStyle = scanner.nextInt();
-        System.out.print(" (0-10): ");
-        int dateStyle = scanner.nextInt();
+       // int myStyle = scanner.nextInt();
+       // System.out.print(" (0-10): ");
+        //int dateStyle = scanner.nextInt();
 
-        System.out.println(": " + Task11.dateFashion(myStyle, dateStyle));
+        //System.out.println(": " + Task11.dateFashion(myStyle, dateStyle));
+
+
+        System.out.println("sortaSum");
+        System.out.print("enter num1 ");
+        int num1 = scanner.nextInt();
+        System.out.print("enter num2");
+        int num2 = scanner.nextInt();
+
+        System.out.println("" + Task12.sortaSum(num1, num2));
 
 
     }
