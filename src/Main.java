@@ -43,15 +43,23 @@ public class Main {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("(blueTicket) ");
-        System.out.print(" a: ");
-        int a = scanner.nextInt();
-        System.out.print(" b: ");
-        int b = scanner.nextInt();
-        System.out.print("c: ");
-        int c = scanner.nextInt();
+       // System.out.println("(blueTicket) ");
+      //  System.out.print(" a: ");
+        //int a = scanner.nextInt();
+       // System.out.print(" b: ");
+       // int b = scanner.nextInt();
+       // System.out.print("c: ");
+       // int c = scanner.nextInt();
 
-        System.out.println( Task10.blueTicket(a, b, c));
+       // System.out.println( Task10.blueTicket(a, b, c));
+        System.out.println(" enter the value");
+        System.out.print("enter the value from (0-10): ");
+
+        int myStyle = scanner.nextInt();
+        System.out.print(" (0-10): ");
+        int dateStyle = scanner.nextInt();
+
+        System.out.println(": " + Task11.dateFashion(myStyle, dateStyle));
 
 
     }
